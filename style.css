@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 170, 170);
+}
+
+#quiz {
+    margin-bottom: 20px;
+    color: rgb(87, 150, 81);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+#submit-btn{
+    width: 80px;
+    height: 30px;
+    background: rgb(128, 64, 64);
+    border: none;
+    border-radius: 30px;
+    color: rgb(199, 207, 203);
+}
